@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout_WaresHolder_Content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <ImageView
+        android:id="@+id/imageView_WaresHolder_Choice"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView_WaresHolder_Icon"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/imageView_WaresHolder_Choice"
+        android:background="#cccc" />
+
+    <TextView
+        android:id="@+id/textView_WaresHolder_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@id/imageView_WaresHolder_Icon"
+        android:ellipsize="end"
+        android:lines="2"
+        android:text="这安徽省科技的哈克积分兑换啊快结束了打火机卡收到借款爱丽丝快点回家克拉斯按实际登记卡会受到"
+        android:textColor="#121212"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView_WaresHolder_PriceA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_WaresHolder_Title"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imageView_WaresHolder_Icon"
+        android:text="¥95.00"
+        android:textColor="#e03539"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView_WaresHolder_PriceB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_WaresHolder_PriceA"
+        android:layout_toRightOf="@id/imageView_WaresHolder_Icon"
+        android:text="¥95.00"
+        android:textColor="#4b4b4b"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/textView_WaresHolder_Title"
+        android:layout_alignBottom="@id/imageView_WaresHolder_Icon"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_WaresHolder_NumberReduce"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="#cccc"
+            android:gravity="center"
+            android:text="-"
+            android:textColor="#121212"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView_WaresHolder_Number"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#121212"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView_WaresHolder_NumberPlus"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="#cccc"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#121212"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/imageView_WaresHolder_Icon"
+        android:background="#f5f5f5" />
+
+</RelativeLayout>

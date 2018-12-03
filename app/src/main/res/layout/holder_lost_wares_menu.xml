@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jueyes.shoppingcartdemo.SwipeItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--
+    <TextView
+        android:id="@+id/left_menu"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#f00"
+        android:gravity="center"
+        android:text="left"
+        android:textColor="#fff"/>
+    -->
+
+    <TextView
+        android:id="@+id/textView_LostWaresHolder_Delete"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="#f00"
+        android:gravity="center"
+        android:text="删除"
+        android:textColor="#fff"/>
+
+    <include layout="@layout/holder_lost_wares"/>
+
+</com.jueyes.shoppingcartdemo.SwipeItemLayout>

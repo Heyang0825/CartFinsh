@@ -1,0 +1,83 @@
+
+{
+    "status": 200,
+    "msg": "ok",
+    "debugMsg": null,
+    "data": {
+        "pageSize": 1,
+        "pageList": [
+            {
+                "productId": 111,
+                "productName": "店铺1 商品1 未失效",
+                "productImageUrl": "https://image.qqsk.com/productImage/1536905504213.jpg",
+                "overseas": 1,
+                "shopName": "店铺1",
+                "isRelease": 1
+            },
+            {
+                "productId": 121,
+                "productName": "店铺1 商品2 未失效",
+                "productImageUrl": "https://image.qqsk.com/productImage/1536905504213.jpg",
+                "overseas": 1,
+                "shopName": "店铺1",
+                "isRelease": 1
+            },
+            {
+                "productId": 130,
+                "productName": "店铺1 商品3 失效",
+                "productImageUrl": "https://image.qqsk.com/productImage/1536905504213.jpg",
+                "overseas": 1,
+                "shopName": "店铺1",
+                "isRelease": 0
+            },
+            {
+                "productId": 211,
+                "productName": "店铺2 商品1 未失效",
+                "productImageUrl": "https://image.qqsk.com/productImage/1536905504213.jpg",
+                "overseas": 2,
+                "shopName": "店铺2",
+                "isRelease": 1
+            },
+            {
+                "productId": 221,
+                "productName": "店铺2 商品2 未失效",
+                "productImageUrl": "https://image.qqsk.com/productImage/1536905504213.jpg",
+                "overseas": 2,
+                "shopName": "店铺2",
+                "isRelease": 1
+            },
+            {
+                "productId": 230,
+                "productName": "店铺2 商品3 失效",
+                "productImageUrl": "https://image.qqsk.com/productImage/1536905504213.jpg",
+                "overseas": 2,
+                "shopName": "店铺2",
+                "isRelease": 0
+            },
+            {
+                "productId": 311,
+                "productName": "店铺3 商品1 未失效",
+                "productImageUrl": "https://image.qqsk.com/productImage/1536905504213.jpg",
+                "overseas": 3,
+                "shopName": "店铺3",
+                "isRelease": 1
+            },
+            {
+                "productId": 321,
+                "productName": "店铺3 商品2 未失效",
+                "productImageUrl": "https://image.qqsk.com/productImage/1536905504213.jpg",
+                "overseas": 3,
+                "shopName": "店铺3",
+                "isRelease": 1
+            },
+            {
+                "productId": 330,
+                "productName": "店铺3 商品3 失效",
+                "productImageUrl": "https://image.qqsk.com/productImage/1536905504213.jpg",
+                "overseas": 3,
+                "shopName": "店铺3",
+                "isRelease": 0
+            }
+        ]
+    }
+}

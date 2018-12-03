@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout_LostWaresHolder_Content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/textView_LostWaresHolder_Lost"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:text="失效"
+        android:textColor="#121212"
+        android:textSize="11sp" />
+
+    <ImageView
+        android:id="@+id/imageView_LostWaresHolder_Icon"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/textView_LostWaresHolder_Lost"
+        android:background="#cccc" />
+
+    <TextView
+        android:id="@+id/textView_LostWaresHolder_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@id/imageView_LostWaresHolder_Icon"
+        android:ellipsize="end"
+        android:lines="2"
+        android:text="这安徽省科技的哈克积分兑换啊快结束了打火机卡收到借款爱丽丝快点回家克拉斯按实际登记卡会受到"
+        android:textColor="#121212"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView_LostWaresHolder_PriceA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_LostWaresHolder_Title"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imageView_LostWaresHolder_Icon"
+        android:text="¥95.00"
+        android:textColor="#e03539"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView_LostWaresHolder_PriceB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_LostWaresHolder_PriceA"
+        android:layout_toRightOf="@id/imageView_LostWaresHolder_Icon"
+        android:text="¥95.00"
+        android:textColor="#4b4b4b"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/textView_LostWaresHolder_Num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/textView_LostWaresHolder_Title"
+        android:layout_alignBottom="@id/imageView_LostWaresHolder_Icon"
+        android:background="#fff"
+        android:gravity="center"
+        android:text="X 1"
+        android:textColor="#121212"
+        android:textSize="14sp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/imageView_LostWaresHolder_Icon"
+        android:background="#f5f5f5" />
+
+</RelativeLayout>
